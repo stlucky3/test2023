@@ -1,6 +1,6 @@
 pipeline {
     agent{ 	
-       label "docker-slave"
+       label "java-docker-slave"
     }
 	stages {
         stage('Checkout From GitHub Repository') {
